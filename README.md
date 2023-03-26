@@ -17,13 +17,8 @@ The menu:
 0. Exit
 
 1. Show the seats: Display the seating arrangement and show if the seat is empty or occupied. The output must be an array as follows: 
-  1 2 3 4 5 6
-1 B S S S S S
-2 S S S S S S
-3 S S S S S S
-4 S S S B S S
-5 S S S S S S
-6 S S S S S S
+![image](https://user-images.githubusercontent.com/122049204/227748043-3b7d4c50-1e5b-4588-9257-d2a5cb114a3e.png)
+
 where B represents an occupied seat and S an empty seat, and the number of rows and columns must be specified by the user. Every time a user purchases a ticked the "S" must be replaced with a "B".
 
 2. Buy a ticket: The user chooses where to sit by entering the row he wants to purchase and column that corresponds to the seat. The program must be able to identify if the seat is taken, if so it displays a mesage and asks the user to choose another seat. If the seat is empty the seat display and statistics must be updated.
